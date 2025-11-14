@@ -35,6 +35,9 @@ aside{
     padding-bottom: 15px;
     border-bottom: 2px #432dd7 solid;
 }
+.links a{
+    text-decoration: none;
+}
 .dashboard{
     display: flex;
     align-items: center;
@@ -113,9 +116,192 @@ aside{
     font-size: 1.2rem;
 }
 
+/*  
+
+VERMELHO: filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(-8deg) brightness(96%) contrast(108%);
+AZUL: filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(200deg) brightness(96%) contrast(108%);
+VERDE: filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(120deg) brightness(130%) contrast(90%);
+
+
+*/
 
 .mainContent{
     width: 82vw;
+    height: 100vh;
     background-color: #f3f4f6;
     padding: 35px;
+}
+.mainContent h1{
+    font-size: 2rem;
+}
+.vision{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.visionCard{
+    border-top: 5px #006dec solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 370px;
+    height: 150px;
+    padding: 20px;
+    filter: drop-shadow(1px 6px 6px #00000036);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title h3{
+    color: #6a7282;
+    font-weight: 400;
+}
+.title img{
+    width: 30px;
+    filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(200deg) brightness(96%) contrast(108%);
+}
+.visionCard h1{
+    margin-top: 2px;
+    margin-bottom: 8px;
+    font-weight: 800;
+    color: #0dbe0e;
+}
+.visionCard p{
+    color: #6a7282;
+    font-size: 0.9rem;
+}
+
+.visionCard2{
+    border-top: 5px #0dbe0e solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 370px;
+    height: 150px;
+    padding: 20px;
+    filter: drop-shadow(1px 6px 6px #00000036);
+}
+.title2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title2 h3{
+    color: #6a7282;
+    font-weight: 400;
+}
+.title2 img{
+    width: 30px;
+    filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(120deg) brightness(130%) contrast(90%);
+}
+.visionCard2 h1{
+    margin-top: 2px;
+    margin-bottom: 8px;
+    font-weight: 800;
+    color: #000000;
+}
+.visionCard2 p{
+    color: #6a7282;
+    font-size: 0.9rem;
+}
+
+.visionCard3{
+    border-top: 5px #fe290e solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 370px;
+    height: 150px;
+    padding: 20px;
+    filter: drop-shadow(1px 6px 6px #00000036);
+}
+.title3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title3 h3{
+    color: #6a7282;
+    font-weight: 400;
+}
+.title3 img{
+    width: 30px;
+    filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(-8deg) brightness(96%) contrast(108%);
+}
+.visionCard3 h1{
+    margin-top: 2px;
+    margin-bottom: 8px;
+    font-weight: 800;
+    color: #000000;
+}
+.visionCard3 p{
+    color: #6a7282;
+    font-size: 0.9rem;
+}
+
+
+.statistic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.statisticCard1{
+    background-color: #ffffff;
+    border-left: 5px #99a1af solid;
+    border-radius: 15px;
+    padding: 25px;
+    height: 220px;
+    width: 570px;
+    filter: drop-shadow(1px 6px 6px #00000036);
+}
+.statisticCard1 h1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #565657;
+}
+.numbers h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.numbers span{
+    color: #006dec;
+    font-weight: 800;
+}
+
+.statisticCard2{
+    background-color: #ffffff;
+    border-left: 5px #99a1af solid;
+    border-radius: 15px;
+    padding: 25px;
+    height: 220px;
+    width: 560px;
+    filter: drop-shadow(1px 6px 6px #00000036);
+}
+.statisticCard2 h1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #565657;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    border-bottom: 2px #6a7282 solid;
+}
+.item p{
+    color: #6a7282;
+}
+.item1{
+    color: #0dbe0e;
+}
+.item2{
+    color: #fe290e;
+}
+.item3{
+    color: #fe290e;
+}
+.item4{
+    color: #0dbe0e;
 }

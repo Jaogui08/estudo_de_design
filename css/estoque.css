@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geist", sans-serif;
+}
+body{
+    display: flex;
+}
+aside{
+    background-color: #372aac;
+    height: 100vh;
+    width: 18vw;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 2px #432dd7 solid;
+}
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+.logo h1{
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+.links{
+    padding-inline: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px #432dd7 solid;
+}
+.links a{
+    text-decoration: none;
+}
+.dashboard{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.dashboard img{
+    width: 32px;
+    margin-right: 10px;
+}
+.financeiro{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.financeiro img{
+    width: 32px;
+    margin-right: 10px;
+}
+.estoque{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 10px;
+    background-color: #432dd7;
+    filter: drop-shadow(2px 6px 6px #0000007a);
+}
+.estoque img{
+    width: 32px;
+    margin-right: 10px;
+}
+.sair{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fe290e;
+    font-weight: 400;
+    margin-top: 250px;
+}
+.sair img{
+    filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(-8deg) brightness(96%) contrast(108%);
+    width: 32px;
+    margin-right: 10px;
+}
+.user{
+    padding-inline: 35px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.user img{
+    width: 32px;
+    margin-right: 10px;
+}
+.userText h3{
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.userText h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/*  
+
+VERMELHO: filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(-8deg) brightness(96%) contrast(108%);
+AZUL: filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(200deg) brightness(96%) contrast(108%);
+VERDE: filter: invert(27%) sepia(99%) saturate(7481%) hue-rotate(120deg) brightness(130%) contrast(90%);
+
+
+*/
+
+.mainContent{
+    width: 82vw;
+    height: 100vh;
+    background-color: #f3f4f6;
+    padding: 35px;
+}
+.mainContent h1{
+    font-size: 2rem;
+}
